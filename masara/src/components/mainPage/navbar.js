@@ -14,7 +14,7 @@ function NavScroll() {
     <Navbar expand="lg" className="bg-body-tertiary shadow-sm "  fixed="top">
       <Container fluid>
         <Col xs={3} >
-        {/* <img src='../images/logo.jpg' alt="logo" className='item'/> */}
+
         
         <Navbar.Brand href="#" className='font-l'>Welcome to Masra!</Navbar.Brand>
         </Col>

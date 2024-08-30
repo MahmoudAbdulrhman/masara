@@ -80,3 +80,28 @@
 }
 
 
+/* test */
+.hero-section {
+  position: relative;
+  background-image: url('./assets/small.jpg');
+  background-size: cover;
+  margin-top: 70px;
+  background-position: center;
+  color: rgb(1, 1, 1); /* Ensure text is visible against the background */
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.5); Semi-transparent overlay */
+  z-index: 1; /* Ensure overlay is above background but below text */
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2; /* Ensure text is above the overlay */
+}

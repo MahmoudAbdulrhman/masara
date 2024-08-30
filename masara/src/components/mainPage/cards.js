@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row, Card } from 'react-bootstrap';
-import reg from '../../assets/reg.png';
+import enroll from "../../assets/enroll.jpg"
 import teach from '../../assets/teach.jpg';
 import '../../CustomStyle.css'; // Import your custom CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,7 +24,7 @@ const HorizontalCardComponent = () => (
         {/* Student Enrollment Card without Hover Effect */}
         <Col md={6}>
           <Card className='padding shadow hover-effect'>
-            <Card.Img className='padding shadow p-1' variant="top" src={reg} />
+            <Card.Img className='padding shadow p-1' variant="top" src={enroll} />
             <Card.Body>
               <Card.Title><h1>Enrollment</h1></Card.Title>
               <Card.Text>
