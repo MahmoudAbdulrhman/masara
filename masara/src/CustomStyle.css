@@ -20,9 +20,10 @@
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
   }
 
+  
   .padding{
     margin-top: 20px;
-    border-radius: 120px;
+    border-radius: 50px;
   }
 
   .img {
@@ -44,6 +45,8 @@
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
     opacity: 90%;
 }
+
+
 
 .fontSize{
     font-weight: bolder;
