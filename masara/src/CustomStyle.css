@@ -141,3 +141,40 @@
     font-size: 14px; /* Smaller font size on smaller screens */
   }
 }
+
+
+/* Footer styling */
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text color */
+  margin-top: 40px;
+}
+
+.footer h5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-bottom: 0.1rem;
+}
+
+.footer .nav-link {
+  color: #ffffff; /* White links */
+}
+
+.footer .nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.footer .social-icons .nav-link {
+  font-size: 1.5rem; /* Larger social icons */
+}
+
+.footer .social-icons .nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.footer .text-center {
+  font-size: 0.875rem;
+}
