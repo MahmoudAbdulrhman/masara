@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import '../../CustomStyle.css'; // Optional: for custom CSS
 
-// Import your background image
-// import girl from '../../assets/c1.jpg'
-import boy from '../../assets/c2.webp'
-// import family from '../../assets/c3.webp'
+
+
+// import boy from '../../assets/c2.webp'
+
 import heroImage from '../../assets/small.jpg';
 
 function Hero() {
@@ -20,7 +20,7 @@ function Hero() {
                         <p className="lead">HOMESCHOOLING</p>                                            
                     </Col>
                     <Col>
-                    <img className='boy' src={boy} alt='boy study'/>
+                    {/* <img className='boy' src={boy} alt='boy study'/> */}
                     </Col>
                 </Row>
             </Container>
