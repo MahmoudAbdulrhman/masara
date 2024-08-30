@@ -1,6 +1,6 @@
 /* src/CustomStyles.css */
 .custom-shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
   }
   
   body {
@@ -17,13 +17,13 @@
   }
 
   .shadow{
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   }
 
   
   .padding{
-    margin-top: 20px;
-    border-radius: 50px;
+    margin-top: 5px;
+    border-radius: 9px;
   }
 
   .img {
@@ -41,7 +41,7 @@
     max-width: 65%;
     margin: 20px auto;
     text-align: center; /* Center text for mobile */
-    border-radius: 50px;
+    border-radius: 9px;
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
     opacity: 90%;
 }
@@ -66,5 +66,17 @@
    
 }
 
+
+
+
+/* CustomStyle.css */
+.hover-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: scale(1.05); /* Slightly enlarge the card */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
 
 

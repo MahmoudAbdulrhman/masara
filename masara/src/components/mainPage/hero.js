@@ -17,7 +17,7 @@ function Hero() {
                     <br/>
                     <br/>
                         <h1 className="display-4 white-heading fontSize  text-center">MASRA</h1>
-                        <p className="lead text-center">HOMESCHOOLING</p>                                            
+                        <h2 className="lead text-center">HOMESCHOOLING</h2>                                            
                     </Col>                   
                 </Row>
             </Container>

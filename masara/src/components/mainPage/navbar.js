@@ -11,7 +11,7 @@ function NavScroll() {
   return (
     <Container className='custom-shadow padding'>
       <Row className="justify-content-md-center">
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary shadow-sm "  fixed="top">
       <Container fluid>
         <Col xs={3} >
         {/* <img src='../images/logo.jpg' alt="logo" className='item'/> */}
