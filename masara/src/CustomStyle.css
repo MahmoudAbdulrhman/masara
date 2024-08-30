@@ -1,0 +1,67 @@
+/* src/CustomStyles.css */
+.custom-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+  }
+  
+  body {
+    font-family:  "Montserrat", sans-serif;
+  }
+  
+  .custom-font {
+    font-family:  "Montserrat", sans-serif;
+  }
+  
+  .font-l {
+    font: size 60px;
+    font-weight:500;
+  }
+
+  .shadow{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .padding{
+    margin-top: 20px;
+    border-radius: 120px;
+  }
+
+  .img {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    opacity: 65%;
+    margin-top: 20px;
+    border-radius: 120px;
+  }
+  .hero-section {
+    background-size:initial;
+    background-position: center;
+    height: 40vh; /* Adjust the height as needed */
+    color: rgba(0, 0, 0, 0.5); /* Ensure text color contrasts with background */
+    padding: 2rem; /* Optional: add padding */
+    max-width: 65%;
+    margin: 20px auto;
+    text-align: center; /* Center text for mobile */
+    border-radius: 50px;
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
+    opacity: 90%;
+}
+
+.fontSize{
+    font-weight: bolder;
+    font-size:80px;
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        text-align: left; /* Align text to left for larger screens */
+    }
+}
+
+.boy {
+    border-radius: 20% 20%;
+    max-width: 80%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+   
+}
+
+
+
