@@ -49,19 +49,53 @@
     border-radius: 9px;
     box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
     opacity: 90%;
+    position: relative;
+    background-color: #000; /* Optional: change to your background color */
+   
+    overflow: hidden; /* Hide any content that overflows */
+    padding: 2rem; /* Add padding to prevent text from touching the edges */
+    
+}
+
+.hero-section h1,
+.hero-section h2 {
+    margin: 0;
+    padding: 0;
+    
 }
 
 
-
-.fontSize{
-    font-weight: bolder;
-    font-size:80px;
+/* Responsive text size */
+.white-heading {
+  color: rgb(15, 5, 5);
+  font-size: 2.5rem; /* Adjust based on your design */
 }
 
-@media (min-width: 768px) {
-    .hero-section {
-        text-align: left; /* Align text to left for larger screens */
-    }
+.fontSize {
+  font-size: 5rem; /* Adjust based on your design */
+  font-weight: 900;
+  
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive design for mobile screens */
+@media (max-width: 767.98px) {
+  .hero-section {
+      padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .white-heading {
+      font-size: 1.75rem; /* Smaller font size for mobile */
+  }
+
+  .fontSize {
+      font-size: 4rem; /* Smaller font size for mobile */
+  }
 }
 
 .boy {
