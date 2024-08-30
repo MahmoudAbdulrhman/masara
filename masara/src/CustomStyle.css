@@ -16,6 +16,11 @@
     font-weight:500;
   }
 
+  .compback {
+    background: fixed;
+    background-image: url('./assets/small.jpg');
+    
+  }
   .shadow{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   }

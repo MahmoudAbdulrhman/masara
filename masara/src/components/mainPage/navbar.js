@@ -7,12 +7,16 @@ import Row from 'react-bootstrap/Row'
 import '../../CustomStyle.css'
 
 
+
 function NavScroll() {
   return (
     <Container className='custom-shadow padding'>
+      
       <Row className="justify-content-md-center">
-    <Navbar expand="lg" className="bg-body-tertiary shadow-sm "  fixed="top">
-      <Container fluid>
+        
+    <Navbar  expand="lg" className="bg-body-tertiary shadow-sm"  fixed="top">
+     
+      <Container fluid >
         <Col xs={3} >
 
         
