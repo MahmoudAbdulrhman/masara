@@ -105,3 +105,39 @@
   position: relative;
   z-index: 2; /* Ensure text is above the overlay */
 }
+
+
+/* list */
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden; /* Ensures images don't overflow card boundaries */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image styling */
+.card-img {
+  width: 100%;
+  height: 200px; /* Adjust height to fit your design */
+  object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+/* Custom list styling */
+.custom-list {
+  list-style-position: inside; /* Bullet points inside the list item area */
+  padding-left: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.custom-list li {
+  margin-bottom: 10px; /* Space between list items */
+  font-size: 16px; /* Font size */
+  text-align: left; /* Align text to the left */
+}
+
+@media (max-width: 768px) {
+  .custom-list li {
+    font-size: 14px; /* Smaller font size on smaller screens */
+  }
+}
