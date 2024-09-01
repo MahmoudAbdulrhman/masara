@@ -1,24 +1,29 @@
 // src/App.js
 import React from 'react';
-import {  Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavScroll from './components/mainPage/navbar'; // Correct path to NavScroll
 import Home from './pages/Home'; // Path to Home component
-import About from './components/about';
+import About from './components/about'; // Path to About component
 import Center from './components/about/center'; // Path to Center component
+import Vision from './components/about/vision'; // Path to Vision component
+import FooterComponent from './components/mainPage/footer';
+import './App.css'; // Import your custom CSS for layout
 
 function App() {
   return (
-    <div> {/* Ensure Router is wrapping your Routes */}
-      <div>
+      <div className="d-flex flex-column min-vh-100">
         <NavScroll />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />}>
-            <Route path="center" element={<Center />} /> {/* Nested route */}
-          </Route>
-        </Routes>
+        <div className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />}>
+              <Route path="center" element={<Center />} />
+              <Route path="vision" element={<Vision />} />
+            </Route>
+          </Routes>
+        </div>
+        <FooterComponent />
       </div>
-    </div>
   );
 }
 

@@ -217,3 +217,16 @@ img {
 .footer .text-center {
   font-size: 0.875rem;
 }
+
+/* src/CustomStyle.css */
+
+.collapse-navbar {
+  transition: max-height 0.35s ease;
+}
+
+@media (max-width: 991px) {
+  .collapse-navbar {
+    max-height: 300px; /* Adjust according to your content */
+  }
+}
+

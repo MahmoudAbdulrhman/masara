@@ -1,34 +1,46 @@
+import React, { useState } from 'react';
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import '../../CustomStyle.css';
+import useOutsideClick from '../../utils/navClick'; // Import the custom hook
+import '../../CustomStyle.css'; // Import your custom CSS
 
 function NavScroll() {
-  return (
+  const [isNavOpen, setNavOpen] = useState(false);
+  const navRef = useOutsideClick(() => setNavOpen(false));
 
-   
-    <Navbar expand="lg" className="bg-body-tertiary shadow-sm" fixed="top">
+  return (
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary shadow-sm"
+      fixed="top"
+      ref={navRef}
+    >
       <Container>
         <Navbar.Brand as={Link} to="/" className='font-l'>Welcome to Masra!</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle
+          aria-controls="navbarScroll"
+          onClick={() => setNavOpen(!isNavOpen)}
+        />
+        <Navbar.Collapse
+          id="navbarScroll"
+          in={isNavOpen}
+          className="collapse-navbar"
+        >
           <Nav
-            variant='underline'
-            className="me-auto my-2 my-lg-0"
+            className="ms-auto" // Aligns items to the left
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-
-
             {/* About */}
-            <NavDropdown title="About" id="aboutDropdown">
-              <NavDropdown.Item as={Link} to="/about/Center">Center</NavDropdown.Item>
-              <NavDropdown.Item href="#another-action">Another action</NavDropdown.Item>
+            <NavDropdown title="About" id="aboutDropdown" className="me-lg-2">
+              <NavDropdown.Item as={Link} to="/about/center">Center</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/about/vision">Vision & Mission</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#something-else">Something else here</NavDropdown.Item>
             </NavDropdown>
 
             {/* Classes */}
-            <NavDropdown title="Classes" id="classesDropdown">
+            <NavDropdown title="Classes" id="classesDropdown" className="me-lg-2">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#another-action">Another action</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -36,7 +48,7 @@ function NavScroll() {
             </NavDropdown>
 
             {/* Registration */}
-            <NavDropdown title="Registration" id="registrationDropdown">
+            <NavDropdown title="Registration" id="registrationDropdown" className="me-lg-2">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#another-action">Another action</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -44,7 +56,7 @@ function NavScroll() {
             </NavDropdown>
 
             {/* Events */}
-            <NavDropdown title="Events" id="eventsDropdown">
+            <NavDropdown title="Events" id="eventsDropdown" className="me-lg-2">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#another-action">Another action</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -52,7 +64,7 @@ function NavScroll() {
             </NavDropdown>
 
             {/* Parents Portal */}
-            <NavDropdown title="Parents Portal" id="parentsPortalDropdown">
+            <NavDropdown title="Parents Portal" id="parentsPortalDropdown" className="me-lg-2">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#another-action">Another action</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -60,7 +72,7 @@ function NavScroll() {
             </NavDropdown>
 
             {/* Student Portal */}
-            <NavDropdown title="Student Portal" id="studentPortalDropdown">
+            <NavDropdown title="Student Portal" id="studentPortalDropdown" className="me-lg-2">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#another-action">Another action</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -73,7 +85,6 @@ function NavScroll() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-   
   );
 }
 
