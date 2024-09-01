@@ -1,8 +1,13 @@
-body{
+/* Importing Google Fonts in your HTML (Add this to your public/index.html) */
+/*
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+*/
+
+body {
   margin: 0;
   font-family: "Lora", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 400; /* You can adjust this value as needed, e.g., 400 for normal, 700 for bold */
   font-style: normal;
 }
 

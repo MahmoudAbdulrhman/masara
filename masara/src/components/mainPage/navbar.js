@@ -3,6 +3,7 @@ import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useOutsideClick from '../../utils/navClick'; // Import the custom hook
 import '../../CustomStyle.css'; // Import your custom CSS
+import logo from '../../assets/Logo.png'
 
 function NavScroll() {
   const [isNavOpen, setNavOpen] = useState(false);
@@ -16,7 +17,7 @@ function NavScroll() {
       ref={navRef}
     >
       <Container>
-        <Navbar.Brand as={Link} to="/" className='font-l'>Welcome to Masra!</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" className='font-l '><img src={logo} style={{ width: '50px', height: 'auto' }} className='p-1' alt='logo'></img>Welcome to Masra!</Navbar.Brand>
         <Navbar.Toggle
           aria-controls="navbarScroll"
           onClick={() => setNavOpen(!isNavOpen)}

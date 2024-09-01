@@ -21,7 +21,7 @@ const HorizontalCardComponent = () => {
       {/* Introductory Card without Hover Effect */}
       <Card className='padding shadow'>
         <Card.Body className='lead'>
-          <p className="fs-3 fs-md-2 fs-lg-3 p-3">
+          <p className="fs-4 fs-md-2 fs-lg-3 p-3">
             At MASRA, we believe in the power of personalized learning and the
             importance of fostering a love of discovery. We're a community of passionate educators and
             supportive families dedicated to empowering children to thrive in a nurturing environment.
