@@ -1,10 +1,10 @@
-import test from "../../assets/test.jpg";
+
 
 
 const Center = ()=>{
     return (
         <div>
-            <img src={test} alt="test"/>
+            <h1>its okay</h1>
         </div>
     )
 }

@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Home = ()=>{
     return (
-        <div className="App">
+    <div className="App">
        <Hero/>
        <HorizontalCardComponent/>
        <FooterComponent/>       
