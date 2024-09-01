@@ -1,0 +1,19 @@
+.top {
+    background-image:url(../../assets/center.png);
+    background-color: black;
+    background-size: cover; /* Scale the image to cover the entire row */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 400px; /* Adjust height as needed */
+    display: flex; /* Flexbox can help with centering content */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.custom-text{
+    font-size: 80px;
+}
+
+.custom-shadow {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+    }
