@@ -37,32 +37,27 @@
     margin-top: 20px;
     border-radius: 120px;
   }
-  .hero-section {
-    background-size:initial;
-    background-position: center;
-    height: 40vh; /* Adjust the height as needed */
-    color: rgba(0, 0, 0, 0.5); /* Ensure text color contrasts with background */
-    padding: 2rem; /* Optional: add padding */
-    max-width: 65%;
-    margin: 20px auto;
-    text-align: center; /* Center text for mobile */
-    border-radius: 9px;
-    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.5);
-    opacity: 90%;
-    position: relative;
-    background-color: #000; /* Optional: change to your background color */
-   
-    overflow: hidden; /* Hide any content that overflows */
-    padding: 2rem; /* Add padding to prevent text from touching the edges */
-    
+  /* CustomStyle.css */
+
+/* Center the hero component in its container */
+.hero-section {
+  margin: 0 auto; /* Center horizontally */
+  max-width: 850px; /* Limit width to avoid stretching */
 }
 
-.hero-section h1,
-.hero-section h2 {
-    margin: 0;
-    padding: 0;
-    
+/* Flex container for centering content vertically and horizontally */
+
+
+/* Styling for headings and text */
+.white-heading {
+  color: white; /* Ensure text color is visible */
+  text-align: center;
 }
+
+.fontSize {
+  font-size: 4rem; /* Adjust font size as needed */
+}
+
 
 
 /* Responsive text size */

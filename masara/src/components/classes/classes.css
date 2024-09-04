@@ -1,12 +1,12 @@
 /* classes.css */
 
 /* Container for the hero image */
-.hero-container {
+.heroc-container {
     position: relative;
     overflow: hidden;
   }
   
-  .hero-image {
+  .heroc-image {
     background-image: url('../../assets/coursesM.jpg'); /* Update with the path to your image */
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@
   }
   
   /* Content section below the hero image */
-  .hero-content {
+  .heroc-content {
     background-color: rgba(224, 247, 250, 0.5); /* Soft Blue with 50% opacity */
     padding: 50px 20px; /* Adjust padding as needed */
   }

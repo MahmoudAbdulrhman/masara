@@ -7,10 +7,10 @@ const Courses = () => {
   return (
     <div>
       {/* Hero Image Section */}
-      <div className='hero-image'></div>
+      <div className='heroc-image'></div>
 
       {/* Content Section Below Hero Image */}
-      <div className='hero-content'>
+      <div className='heroc-content'>
         <Container className="my-5">
           <Row className="text-center mb-4">
             <Col>
