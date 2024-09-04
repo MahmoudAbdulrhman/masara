@@ -33,7 +33,7 @@ function NavScroll() {
             <NavDropdown title="About" id="aboutDropdown">
               <NavDropdown.Item as={Link} to="/about/center">Center</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/about/vision">Vision & Mission</NavDropdown.Item>
-              <NavDropdown.Item href="#something-else">Our Team</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/about/ourTeam">Our Team</NavDropdown.Item>
             </NavDropdown>
 
             {/* Classes Dropdown */}
