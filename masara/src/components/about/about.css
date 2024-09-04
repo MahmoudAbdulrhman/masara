@@ -1,10 +1,11 @@
 .top {
     background-image:url(../../assets/center.png);
+    max-width: 100%;
     background-color: black;
-    background-size: cover; /* Scale the image to cover the entire row */
+    background-size:auto; /* Scale the image to cover the entire row */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent image repetition */
-    height: 400px; /* Adjust height as needed */
+    height: auto; /* Adjust height as needed */
     display: flex; /* Flexbox can help with centering content */
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */
@@ -12,11 +13,12 @@
 
 .vision{
     background-image:url(../../assets/vision.png);
+    background-size: auto;
     background-color: black;
     background-size: cover; /* Scale the image to cover the entire row */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent image repetition */
-    height: 400px; /* Adjust height as needed */
+    height: auto; /* Adjust height as needed */
     display: flex; /* Flexbox can help with centering content */
     align-items: center; /* Center content vertically */
     justify-content: center; /* Center content horizontally */

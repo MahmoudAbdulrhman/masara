@@ -236,3 +236,21 @@ img {
 /* ------- */
 /* Ensure the Navbar aligns to the right on larger screens */
 
+/* VisionPage.css */
+
+.bg-light-peach {
+  background-color: rgba(255, 239, 213, 0.5); /* Peach with 50% opacity */
+}
+
+.hero-section {
+  background: url('./assets/vision2.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.feature-icon {
+  margin-bottom: 20px;
+}
+
+.feature-icon i {
+  color: #4CAF50; /* Example color */
+}
