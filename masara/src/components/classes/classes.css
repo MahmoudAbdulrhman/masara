@@ -44,3 +44,57 @@
     margin-top: 10px; /* Add spacing if needed */
   }
   
+  /* schedule */
+
+  /* Schedule.css */
+
+/* Adjust spacing and typography */
+.text-center {
+    text-align: center;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+  }
+  
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Schedule.css */
+/* Schedule.css */
+
+/* Hero Section Styling */
+/* Hero Section Styling */
+.herosc-section {
+    background-image: url('../../assets/schedule.jpg'); /* Replace with your hero image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensures text is readable on the background */
+    padding: 100px 0; /* Adjust padding for desired hero section height */
+    text-align: center;
+  }
+  
+  .herosc-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .display-4 {
+    font-size: 3rem; /* Adjust font size for the heading */
+  }
+  
+  .lead {
+    font-size: 1.5rem; /* Adjust font size for the lead paragraph */
+  }
+  
+  .text-white {
+    color: white; /* Ensures text color is white */
+  }
+  

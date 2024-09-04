@@ -10,6 +10,7 @@ import FooterComponent from './components/mainPage/footer';
 import OurTeam from './components/about/ourTeam';
 import Classes from './components/classes';
 import Courses from './components/classes/courses';
+import Schedule from './components/classes/schedule';
 import './App.css'; // Import your custom CSS for layout
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             </Route>
             <Route path="classes" element={<Classes />}>
               <Route path="courses" element={<Courses />} />
+              <Route path="schedule" element={<Schedule />} />
             </Route>
           </Routes>
         </div>
