@@ -8,6 +8,8 @@ import Center from './components/about/center'; // Path to Center component
 import Vision from './components/about/vision'; // Path to Vision component
 import FooterComponent from './components/mainPage/footer';
 import OurTeam from './components/about/ourTeam';
+import Classes from './components/classes';
+import Courses from './components/classes/courses';
 import './App.css'; // Import your custom CSS for layout
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
               <Route path="center" element={<Center />} />
               <Route path="vision" element={<Vision />} />
               <Route path="ourTeam" element={<OurTeam />} />
+            </Route>
+            <Route path="classes" element={<Classes />}>
+              <Route path="courses" element={<Courses />} />
             </Route>
           </Routes>
         </div>

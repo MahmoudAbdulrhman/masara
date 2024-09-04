@@ -49,8 +49,8 @@ function NavScroll() {
 
             {/* Classes Dropdown */}
             <NavDropdown title="Classes" id="classesDropdown">
-              <NavDropdown.Item href="#action3" onClick={handleNavItemClick}>
-                Action
+              <NavDropdown.Item as={Link} to="/classes/courses" onClick={handleNavItemClick}>
+                Our Courses
               </NavDropdown.Item>
               <NavDropdown.Item href="#another-action" onClick={handleNavItemClick}>
                 Another action

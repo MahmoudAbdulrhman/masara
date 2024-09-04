@@ -1,0 +1,46 @@
+/* classes.css */
+
+/* Container for the hero image */
+.hero-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    background-image: url('../../assets/coursesM.jpg'); /* Update with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust height as needed */
+    width: 100%;
+  }
+  
+  /* Content section below the hero image */
+  .hero-content {
+    background-color: rgba(224, 247, 250, 0.5); /* Soft Blue with 50% opacity */
+    padding: 50px 20px; /* Adjust padding as needed */
+  }
+  
+  /* Center the cards on large screens */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+  }
+  
+  .card {
+    margin: 10px; /* Add margin between cards */
+    max-width: 100%; /* Ensure cards don't exceed container width */
+  }
+  
+  /* Ensure cards stack vertically on smaller screens */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Ensure the email section is visible and properly styled */
+  .btn-primary {
+    margin-top: 10px; /* Add spacing if needed */
+  }
+  
