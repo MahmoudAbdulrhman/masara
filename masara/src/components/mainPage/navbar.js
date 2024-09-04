@@ -13,7 +13,7 @@ function NavScroll() {
   useOutsideClick(() => setNavOpen(false));
 
   return (
-    <Navbar expand="lg" className="navbar-light bg-light shadow-sm">
+    <Navbar expand="lg" className="navbar-light bg-light shadow-sm sticky-top">
       <Container fluid>
       <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <img src={logo} style={{ width: '50px', height: 'auto' }} className="p-1" alt="logo" />
