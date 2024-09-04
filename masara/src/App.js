@@ -7,7 +7,7 @@ import About from './components/about'; // Path to About component
 import Center from './components/about/center'; // Path to Center component
 import Vision from './components/about/vision'; // Path to Vision component
 import FooterComponent from './components/mainPage/footer';
-import Team from './components/about/ourTeam';
+import OurTeam from './components/about/ourTeam';
 import './App.css'; // Import your custom CSS for layout
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
             <Route path="about" element={<About />}>
               <Route path="center" element={<Center />} />
               <Route path="vision" element={<Vision />} />
-              <Route path="vision" element={<Team />} />
+              <Route path="ourTeam" element={<OurTeam />} />
             </Route>
           </Routes>
         </div>
