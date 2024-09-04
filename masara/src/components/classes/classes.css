@@ -70,10 +70,19 @@
 
 /* Hero Section Styling */
 /* Hero Section Styling */
+
+
+.background-custom {
+  background-color: rgba(224, 247, 250, 0.5); /* Soft Blue with 50% opacity */
+  padding: 20px; /* Optional padding */
+}
+
+
 .herosc-section {
     background-image: url('../../assets/schedule.jpg'); /* Replace with your hero image path */
     background-size: cover;
     background-position: center;
+    
     color: white; /* Ensures text is readable on the background */
     padding: 100px 0; /* Adjust padding for desired hero section height */
     text-align: center;

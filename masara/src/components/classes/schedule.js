@@ -9,7 +9,9 @@ const HeroSection = () => {
       <Container className="herosc-content text-center">
         <Row>
           <Col>
-            <h1 className="display-4 text-white animate__animated animate__fadeIn">Masra Homeschooling Center Schedule</h1>
+            <h1 className="display-4 text-white animate__animated animate__fadeIn">
+              Masra Homeschooling Center Schedule
+            </h1>
             <p className="lead text-white animate__animated animate__fadeIn animate__delay-1s">
               Masra Homeschooling Center offers a well-rounded program that includes both core and enrichment courses. Explore our offerings to see how we can support your child's educational journey.
             </p>
@@ -22,7 +24,7 @@ const HeroSection = () => {
 
 const Schedule = () => {
   return (
-    <>
+    <div className="background-custom">
       <HeroSection />
       <Container className="my-5">
         {/* Core Courses Section */}
@@ -31,7 +33,7 @@ const Schedule = () => {
             <h2 className="text-center mb-4">Core Courses</h2>
             <Row className="justify-content-center">
               <Col md={4} className="mb-4">
-                <Card className="animate__animated animate__bounceIn animate__delay-1s">
+                <Card className="animate__animated animate__fadeInUp animate__delay-1s">
                   <Card.Body>
                     <Card.Title>Language Arts</Card.Title>
                     <Card.Text>
@@ -41,7 +43,7 @@ const Schedule = () => {
                 </Card>
               </Col>
               <Col md={4} className="mb-4">
-                <Card className="animate__animated animate__bounceIn animate__delay-2s">
+                <Card className="animate__animated animate__fadeInUp animate__delay-2s">
                   <Card.Body>
                     <Card.Title>Math</Card.Title>
                     <Card.Text>
@@ -51,7 +53,7 @@ const Schedule = () => {
                 </Card>
               </Col>
               <Col md={4} className="mb-4">
-                <Card className="animate__animated animate__bounceIn animate__delay-3s">
+                <Card className="animate__animated animate__fadeInUp animate__delay-3s">
                   <Card.Body>
                     <Card.Title>Science</Card.Title>
                     <Card.Text>
@@ -70,7 +72,7 @@ const Schedule = () => {
             <h2 className="text-center mb-4">Enrichment Courses</h2>
             <Row className="justify-content-center">
               <Col md={6} className="mb-4">
-                <Card className="animate__animated animate__bounceIn animate__delay-1s">
+                <Card className="animate__animated animate__fadeInUp animate__delay-1s">
                   <Card.Body>
                     <Card.Title>Creative Writing</Card.Title>
                     <Card.Text>
@@ -80,7 +82,7 @@ const Schedule = () => {
                 </Card>
               </Col>
               <Col md={6} className="mb-4">
-                <Card className="animate__animated animate__bounceIn animate__delay-2s">
+                <Card className="animate__animated animate__fadeInUp animate__delay-2s">
                   <Card.Body>
                     <Card.Title>Storytelling and Art</Card.Title>
                     <Card.Text>
@@ -90,7 +92,7 @@ const Schedule = () => {
                 </Card>
               </Col>
               <Col md={6} className="mb-4">
-                <Card className="animate__animated animate__bounceIn animate__delay-3s">
+                <Card className="animate__animated animate__fadeInUp animate__delay-3s">
                   <Card.Body>
                     <Card.Title>Debate</Card.Title>
                     <Card.Text>
@@ -100,7 +102,7 @@ const Schedule = () => {
                 </Card>
               </Col>
               <Col md={6} className="mb-4">
-                <Card className="animate__animated animate__bounceIn animate__delay-4s">
+                <Card className="animate__animated animate__fadeInUp animate__delay-4s">
                   <Card.Body>
                     <Card.Title>Public Speaking</Card.Title>
                     <Card.Text>
@@ -125,7 +127,7 @@ const Schedule = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 
