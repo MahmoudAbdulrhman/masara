@@ -39,8 +39,10 @@ const teamMembers = [
 
 const OurTeam = () => {
   return (
-    <Container className="our-team-container mt-4">
-      <h2 className="text-center mb-4">Our Team</h2>
+    <div className='bg-soft-lavender w-100 p-5'>
+
+    <Container className="our-team-container  mt-4">
+      <h2 className="text-center mb-4 fs-1 fw-bolder">Our Team</h2>
       {teamMembers.map((member, index) => (
         <Card 
           key={index} 
@@ -80,6 +82,8 @@ const OurTeam = () => {
         </Card>
       ))}
     </Container>
+
+    </div>
   );
 };
 

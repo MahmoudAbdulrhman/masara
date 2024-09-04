@@ -124,8 +124,6 @@ const Vision = () => {
           <Button href="#contact" variant="success" className="animate__animated animate__fadeInUp">Contact Us</Button>
         </Container>
       </section>
-
-
     </div>
   );
 }

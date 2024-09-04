@@ -34,6 +34,10 @@
 
 
     /* Cards ourTeam */
+
+    .bg-soft-lavender {
+        background-color: rgba(230, 230, 250, 0.5); /* Lavender with 50% opacity */
+      }
     .our-team-container {
         text-align: center;
       }
