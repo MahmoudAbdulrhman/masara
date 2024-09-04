@@ -12,6 +12,8 @@ function Hero() {
           <p>HOMESCHOOLING</p>
         </Card.Body>
       </Card>
+
+      
     
   );
 }

@@ -1,21 +1,27 @@
 // src/hooks/useOutsideClick.js
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
+/**
+ * Custom hook to detect clicks outside of a specified element.
+ * @param {function} callback - Function to be called on outside click.
+ */
 const useOutsideClick = (callback) => {
-  const ref = useRef(null);
-
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (ref.current && !ref.current.contains(event.target)) {
+      // Check if the click is outside the referenced element
+      if (event.target.closest('.navbar-collapse') === null) {
         callback();
       }
     };
 
+    // Attach the event listener to the document
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, [callback]);
 
-  return ref;
+    // Clean up the event listener on component unmount
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [callback]);
 };
 
 export default useOutsideClick;

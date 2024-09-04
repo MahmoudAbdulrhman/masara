@@ -145,6 +145,9 @@ img {
   z-index: 2; /* Ensure text is above the overlay */
 }
 
+.info-Card{
+  background-color:#f3e7d8;
+}
 
 /* list */
 
@@ -229,4 +232,7 @@ img {
     max-height: 300px; /* Adjust according to your content */
   }
 }
+
+/* ------- */
+/* Ensure the Navbar aligns to the right on larger screens */
 
