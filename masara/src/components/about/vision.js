@@ -54,7 +54,7 @@ const Vision = () => {
   return (
     <div className="bg-light-peach p-3">
       {/* Hero Section */}
-      <header className="hero-section text-white text-center py-5 animate__animated animate__fadeIn">
+      <header className="heros-section text-white text-center py-5 animate__animated animate__fadeIn">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>

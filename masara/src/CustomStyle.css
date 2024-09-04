@@ -242,9 +242,8 @@ img {
   background-color: rgba(255, 239, 213, 0.5); /* Peach with 50% opacity */
 }
 
-.hero-section {
-  background: url('./assets/vision2.jpg') no-repeat center center;
-  background-size: cover;
+.heros-section {
+  background: url('./assets/visions.jpg') no-repeat center center;
 }
 
 .feature-icon {
