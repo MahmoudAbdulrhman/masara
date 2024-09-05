@@ -1,0 +1,15 @@
+/* classes.css */
+
+.card {
+  border-radius: 10px;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  iframe {
+    height: 1600px; /* Adjust height for smaller screens */
+  }
+}
