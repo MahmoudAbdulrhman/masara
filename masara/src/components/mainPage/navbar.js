@@ -62,7 +62,7 @@ function NavScroll() {
               <NavDropdown.Item as={Link} to="/regTab/form" onClick={handleNavItemClick}>
                 Intrest Form
               </NavDropdown.Item>
-              <NavDropdown.Item href="#another-action" onClick={handleNavItemClick}>
+              <NavDropdown.Item as={Link} to="/regTab/regestration" onClick={handleNavItemClick}>
                 Registration
               </NavDropdown.Item>
               <NavDropdown.Item href="#something-else" onClick={handleNavItemClick}>

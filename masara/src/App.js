@@ -13,6 +13,7 @@ import Courses from './components/classes/courses';
 import Schedule from './components/classes/schedule';
 import RegTab from './components/regTab/Layout';
 import Form from './components/regTab/form';
+import Registration from './components/regTab/regestration';
 import './App.css'; // Import your custom CSS for layout
 
 
@@ -35,6 +36,7 @@ function App() {
             </Route>
             <Route path="regTab" element={<RegTab />}>
               <Route path="form" element={<Form />} />
+              <Route path="regestration" element={<Registration />} />
             </Route>
           </Routes>
          
