@@ -72,15 +72,11 @@ function NavScroll() {
 
             {/* Events Dropdown */}
             <NavDropdown title="Events" id="eventsDropdown">
-              <NavDropdown.Item href="#action3" onClick={handleNavItemClick}>
-                Action
+              <NavDropdown.Item as={Link} to="/events/masra"  onClick={handleNavItemClick}>
+                Masra
               </NavDropdown.Item>
-              <NavDropdown.Item href="#another-action" onClick={handleNavItemClick}>
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#something-else" onClick={handleNavItemClick}>
-                Something else here
+              <NavDropdown.Item as={Link} to="/events/community" onClick={handleNavItemClick}>
+                Community
               </NavDropdown.Item>
             </NavDropdown>
 
@@ -113,7 +109,7 @@ function NavScroll() {
             </NavDropdown>
 
             {/* Newsletter Link */}
-            <Nav.Link href="#newsletter" onClick={handleNavItemClick}>
+            <Nav.Link as={Link} to="/nl/newslatter"  onClick={handleNavItemClick}>
               Newsletter
             </Nav.Link>
           </Nav>
