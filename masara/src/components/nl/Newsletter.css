@@ -1,11 +1,11 @@
-/* src/components/Newsletter.css */
+src/components/Newsletter.css
 .newsletter-page {
   text-align: center;
   padding: 20px;
   background: #f5f5f5; /* Light background color for the page */
 }
 
-.hero-section {
+.heron-section {
   position: relative;
   width: 100%;
   height: 400px; /* Adjust height as needed */
@@ -23,55 +23,26 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4); /* Dark overlay */
 }
 
-.hero-section h1 {
+.heron-section h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   animation: animate__fadeIn animate__animated animate__delay-1s;
 }
 
-.hero-section p {
+.heron-section p {
   font-size: 1.2rem;
   margin-bottom: 30px;
   animation: animate__fadeIn animate__animated animate__delay-2s;
 }
 
-.card-section {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.card {
-  width: 100%;
-  max-width: 600px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  animation: animate__fadeIn animate__animated animate__delay-3s;
-}
-
-.card-body {
-  padding: 20px;
-  text-align: left;
-}
-
-.card-body h5 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}
-
-.card-body p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-}
-
-.card-body .btn {
-  width: 100%;
-}
 
 .form-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   animation: animate__fadeIn animate__animated animate__delay-4s;
+}
+
+.custom-color{
+  background-color: rgba(224, 247, 250, 0.5);
 }

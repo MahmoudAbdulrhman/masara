@@ -13,13 +13,14 @@ function NewsletterPage() {
   };
 
   return (
-    <Container className="newsletter-page">
-      <div className="hero-section animate__animated animate__fadeIn">
+    <div className='custom-color'>
+    <Container className="newsletter-page  ">
+      <div className="heron-section animate__animated animate__fadeIn">
         <h1>Join Our Newsletter</h1>
         <p>Stay updated with the latest news and offers by subscribing to our newsletter.</p>
       </div>
 
-      <div className="card-section">
+      <div className="cardn-section">
         <Card className="animate__animated animate__fadeIn">
           <Card.Body>
             <Card.Title>Why Subscribe?</Card.Title>
@@ -32,7 +33,7 @@ function NewsletterPage() {
       </div>
 
       {showForm && (
-        <div className="form-container animate__animated animate__fadeIn">
+        <div className="form-container animate__animated animate__fadeIn delay-2s">
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSdsuqzl1zmJSiokXuW4U5Ek0snrhG1ySv_FSbM5LG0l6GKmEQ/viewform"
             width="100%"
@@ -47,6 +48,7 @@ function NewsletterPage() {
         </div>
       )}
     </Container>
+    </div>
   );
 }
 
