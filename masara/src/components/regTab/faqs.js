@@ -99,12 +99,12 @@ const faqData = [
 
 const FAQSection = () => {
   return (
-    <div>
+    <div className='bg-light-peach '>
       {/* Hero Section */}
       <div className="faqs m-2 text-center text-white py-5">
         <Container>
           <h1 className="display-4 animate__animated animate__fadeIn">Welcome to MASRA Homeschooling</h1>
-          <p className="lead animate__animated animate__fadeIn animate__delay-1s">
+          <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow">
             Explore our FAQs to learn more about our core and enrichment courses, enrollment process, curriculum, and more. We are here to support homeschooling families with quality education and personalized attention.
           </p>
         </Container>
