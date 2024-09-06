@@ -57,4 +57,34 @@
       }
       
       
-    
+/* CustomStyle.css */
+.heroct-section {
+  background: url(../../assets/center.png);
+}
+
+.custom-col-width {
+  max-width: 100%; /* Adjust as needed */
+  margin: auto; /* Center the column */
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.fs-3 {
+  font-size: 1.75rem;
+}
+
+.feature-icon {
+  color: #007bff; /* Adjust icon color */
+}
+
+.feature-icon i {
+  margin-bottom: 1rem;
+}

@@ -80,33 +80,8 @@ function NavScroll() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            {/* Parents Portal Dropdown */}
-            <NavDropdown title="Parents Portal" id="parentsPortalDropdown">
-              <NavDropdown.Item href="#action3" onClick={handleNavItemClick}>
-                Action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#another-action" onClick={handleNavItemClick}>
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#something-else" onClick={handleNavItemClick}>
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
-
-            {/* Student Portal Dropdown */}
-            <NavDropdown title="Student Portal" id="studentPortalDropdown">
-              <NavDropdown.Item href="#action3" onClick={handleNavItemClick}>
-                Action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#another-action" onClick={handleNavItemClick}>
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#something-else" onClick={handleNavItemClick}>
-                Something else here
-              </NavDropdown.Item>
-            </NavDropdown>
+            {/*Portal Link */}
+            <Nav.Link as={Link}>Portal</Nav.Link>
 
             {/* Newsletter Link */}
             <Nav.Link as={Link} to="/nl/newslatter"  onClick={handleNavItemClick}>
