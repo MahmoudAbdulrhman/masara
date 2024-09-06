@@ -103,8 +103,8 @@ const FAQSection = () => {
       {/* Hero Section */}
       <div className="faqs m-2 text-center text-white py-5">
         <Container>
-          <h1 className="display-4 animate__animated animate__fadeIn">Welcome to MASRA Homeschooling</h1>
-          <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow">
+          <h1 className="display-4 animate__animated animate__fadeIn text-black">Welcome to MASRA Homeschooling</h1>
+          <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow text-black">
             Explore our FAQs to learn more about our core and enrichment courses, enrollment process, curriculum, and more. We are here to support homeschooling families with quality education and personalized attention.
           </p>
         </Container>
