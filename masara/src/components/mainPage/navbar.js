@@ -28,7 +28,7 @@ function NavScroll() {
         {/* Navbar Toggle */}
         <Navbar.Toggle
           aria-controls="navbarSupportedContent"
-          onClick={() => setNavOpen(!isNavOpen)} // Toggle navbar open/close
+          onClick={() => setNavOpen(prevState => !prevState)} // Toggle navbar open/close
         />
 
         {/* Navbar Collapse */}
@@ -52,7 +52,7 @@ function NavScroll() {
               <NavDropdown.Item as={Link} to="/classes/courses" onClick={handleNavItemClick}>
                 Our Courses
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to = "/classes/schedule"  onClick={handleNavItemClick}>
+              <NavDropdown.Item as={Link} to="/classes/schedule" onClick={handleNavItemClick}>
                 Schedule
               </NavDropdown.Item>
             </NavDropdown>
@@ -66,13 +66,13 @@ function NavScroll() {
                 Registration
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/regTab/faqs" onClick={handleNavItemClick}>
-                FAQ`s
+                FAQ's
               </NavDropdown.Item>
             </NavDropdown>
 
             {/* Events Dropdown */}
             <NavDropdown title="Events" id="eventsDropdown">
-              <NavDropdown.Item as={Link} to="/events/masra"  onClick={handleNavItemClick}>
+              <NavDropdown.Item as={Link} to="/events/masra" onClick={handleNavItemClick}>
                 Masra
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/events/community" onClick={handleNavItemClick}>
@@ -80,11 +80,13 @@ function NavScroll() {
               </NavDropdown.Item>
             </NavDropdown>
 
-            {/*Portal Link */}
-            <Nav.Link as={Link}>Portal</Nav.Link>
+            {/* Portal Link */}
+            <Nav.Link as={Link} to="/portal/portal" onClick={handleNavItemClick}>
+              Portal
+            </Nav.Link>
 
             {/* Newsletter Link */}
-            <Nav.Link as={Link} to="/nl/newslatter"  onClick={handleNavItemClick}>
+            <Nav.Link as={Link} to="/nl/newslatter" onClick={handleNavItemClick}>
               Newsletter
             </Nav.Link>
           </Nav>

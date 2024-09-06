@@ -19,6 +19,7 @@ import Events from "./components/eve/Layout";
 import Masra from "./components/eve/masra";
 import Community from "./components/eve/Community";
 import Newsletter from "./components/nl/newsletter";
+import Portal from "./components/portal/portal";
 import "./App.css"; // Import your custom CSS for layout
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
           <Route path="events" element={<Events />}>
             <Route path="masra" element={<Masra />} />
             <Route path="Community" element={<Community />} />
+          </Route>
+          <Route path="portal" element={<Portal />}>
+            <Route path="portal" element={<Portal />} />
           </Route>
           <Route path="nl" element={<Newsletter />}>
             <Route path="newslatter" element={<Newsletter />} />
