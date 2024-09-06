@@ -14,6 +14,7 @@ import Schedule from './components/classes/schedule';
 import RegTab from './components/regTab/Layout';
 import Form from './components/regTab/form';
 import Registration from './components/regTab/regestration';
+import FAQsection from './components/regTab/faqs';
 import './App.css'; // Import your custom CSS for layout
 
 
@@ -37,6 +38,7 @@ function App() {
             <Route path="regTab" element={<RegTab />}>
               <Route path="form" element={<Form />} />
               <Route path="regestration" element={<Registration />} />
+              <Route path="faqs" element={<FAQsection />} />
             </Route>
           </Routes>
          
