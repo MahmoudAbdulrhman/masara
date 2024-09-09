@@ -1,0 +1,31 @@
+/* src/portal.css */
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+  }
+  
+  .login-container .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .login-container .btn {
+    border-radius: 0.25rem;
+  }
+  
+  .login-container a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-container .alert {
+    margin-bottom: 15px;
+  }
+  

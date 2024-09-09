@@ -81,7 +81,7 @@ function NavScroll() {
             </NavDropdown>
 
             {/* Portal Link */}
-            <Nav.Link as={Link} to="/portal/portal" onClick={handleNavItemClick}>
+            <Nav.Link as={Link} to="/Login" onClick={handleNavItemClick}>
               Portal
             </Nav.Link>
 
