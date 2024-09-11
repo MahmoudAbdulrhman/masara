@@ -13,7 +13,7 @@ const Center = () => {
           <Row className="justify-content-center">
             <Col md={10}>
               <h1 className="display-4">Welcome to Our Learning Center</h1>
-              <p className="lead fs-3">Empowering students through personalized and innovative education.</p>
+              <p className="lead fs-3">Empowering Students Through Personalized and Innovative Education</p>
             </Col>
           </Row>
         </Container>
