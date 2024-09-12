@@ -1,7 +1,7 @@
 // src/components/FooterComponent.js
 import React from 'react';
 import { Container, Row, Col, Nav } from 'react-bootstrap';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 import '../../CustomStyle.css'; // Import your custom CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,10 +24,10 @@ const FooterComponent = () => {
         <Row className="justify-content-center mb-2">
           <Col xs="auto">
             <Nav>
-              <Nav.Link href="https://facebook.com" target="_blank" className="text-white me-2"><FaFacebookF /></Nav.Link>
-              <Nav.Link href="https://twitter.com" target="_blank" className="text-white me-2"><FaTwitter /></Nav.Link>
+              <Nav.Link href="https://www.facebook.com/people/MASRA-Homeschooling/61559058260532/" target="_blank" className="text-white me-2"><FaFacebookF /></Nav.Link>
+              
               <Nav.Link href="https://instagram.com" target="_blank" className="text-white me-2"><FaInstagram /></Nav.Link>
-              <Nav.Link href="https://linkedin.com" target="_blank" className="text-white"><FaLinkedinIn /></Nav.Link>
+             
             </Nav>
           </Col>
         </Row>

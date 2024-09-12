@@ -6,7 +6,7 @@ import '../../CustomStyle.css'; // Custom styles
 
 const Center = () => {
   return (
-    <div className="bg-light-peach p-3">
+    <div className=" p-3">
       {/* Hero Section */}
       <header className="heroct-section text-white text-center py-5 animate__animated animate__fadeIn">
         <Container>
@@ -20,7 +20,7 @@ const Center = () => {
       </header>
 
       {/* Introduction Section */}
-      <section className="py-5">
+      <section className=" ccolor py-5">
         <Container>
           <Row className="justify-content-center">
             <Col md={10} className="text-center animate__animated animate__fadeInUp custom-col-width">
@@ -75,7 +75,9 @@ const Center = () => {
         <Container>
           <h2 className="animate__animated animate__fadeInUp">Ready to Learn More?</h2>
           <p className="animate__animated animate__fadeInUp">Discover how MASRA Learning Center can make a difference in your child's educational journey.</p>
-          <Button href="#contact" variant="success" className="animate__animated animate__fadeInUp">Contact Us</Button>
+          <Button variant="primary" href="mailto:info@masraha.org" className="animate__animated animate__fadeIn animate__delay-6s">
+              Email Us
+            </Button>
         </Container>
       </section>
     </div>

@@ -17,9 +17,10 @@ const HorizontalCardComponent = () => {
   const handleClose = () => setShowModal(false);
 
   return (
-    <div className="container mt-5">
+   
+    <div className="container">
       {/* Introductory Card without Hover Effect */}
-      <Card className='padding shadow'>
+      <Card className='padding shadow mt-5'>
         <Card.Body className='lead info-Card'>
           <p className="fs-4 fs-md-2 fs-lg-3 p-3">
             At MASRA, we believe in the power of personalized learning and the
@@ -88,6 +89,7 @@ const HorizontalCardComponent = () => {
         </Modal.Footer>
       </Modal>
     </div>
+  
   );
 };
 

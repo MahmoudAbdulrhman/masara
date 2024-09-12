@@ -6,6 +6,8 @@
   body {
     font-family:  "Montserrat", sans-serif;
   }
+
+  
   
   .custom-font {
     font-family:  "Montserrat", sans-serif;
@@ -40,10 +42,37 @@
   /* CustomStyle.css */
 
 /* Center the hero component in its container */
-.hero-section {
-  margin: 0 auto; /* Center horizontally */
-  max-width: 850px; /* Limit width to avoid stretching */
+.hero-body {
+  /* Add any styles needed for the hero body */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 29vh; /* Full viewport height */
+  margin: 20px;
+  margin-top:50px;
 }
+
+.hero-section {
+  background: #000; /* Background color for the hero section */
+  color: #fff; /* Text color */
+  border: none; /* Remove card borders */
+  border-radius: 0; /* Remove card corners */
+}
+
+.hero-logo {
+  width: 150px; /* Adjust the width of the logo */
+  margin-bottom: 20px; /* Space between the logo and text */
+  /* You can add more styles for positioning or adding shadows if needed */
+}
+
+.white-heading {
+  color: #fff; /* Ensure text is white */
+}
+
+.fontSize {
+  font-size: 4rem; /* Adjust font size for the main heading */
+}
+
 
 /* Flex container for centering content vertically and horizontally */
 
@@ -117,7 +146,7 @@ img {
 /* test */
 .hero-section {
   position: relative;
-  background-image: url('./assets/small.jpg');
+  background-image: url('./assets/small2.png');
   background-size: cover;
   margin-top: 100px;
   background-position: center;
@@ -141,7 +170,7 @@ img {
 }
 
 .info-Card{
-  background-color:#f3e7d8;
+  background-color:#f7f9f9;
 }
 
 /* list */

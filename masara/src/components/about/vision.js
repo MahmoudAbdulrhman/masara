@@ -8,14 +8,13 @@ import vision from '../../assets/vision4.jpg';
 
 const Vision = () => {
   return (
-    <div className="bg-light-peach p-3">
+    <div className=" ccolor p-3">
       {/* Hero Section */}
       <header className="heros-section text-white text-center py-5 animate__animated animate__fadeIn">
         <Container>
           <Row className="justify-content-center">
             <Col md={8}>
               <h1 className="display-4">Our Vision</h1>
-              <p className="lead fs-3">Nurturing academic excellence and exploration.</p>
             </Col>
           </Row>
         </Container>
@@ -23,8 +22,13 @@ const Vision = () => {
 
       {/* Introduction Section */}
       <section className="py-5">
+        <Row className='py-5 text-center animate__animated animate__fadeIn'>
+            <h2 className="lead fs-1">Nurturing Academic Excellence and Exploration.</h2>
+        </Row>
         <Container>
+          
           <Row className="align-items-center">
+
             <Col md={6} className="animate__animated animate__fadeInUp">
               <h2>Why We Do What We Do</h2>
               <p className='fs-4'>MASRA is dedicated
@@ -77,7 +81,9 @@ const Vision = () => {
         <Container>
           <h2 className="animate__animated animate__fadeInUp">Ready to Get Started?</h2>
           <p className="animate__animated animate__fadeInUp">Join us in revolutionizing education and creating a personalized learning experience for your child.</p>
-          <Button href="#contact" variant="success" className="animate__animated animate__fadeInUp">Contact Us</Button>
+          <Button variant="primary" href="mailto:info@masraha.org" className="animate__animated animate__fadeIn animate__delay-6s">
+              Email Us
+            </Button>
         </Container>
       </section>
     </div>

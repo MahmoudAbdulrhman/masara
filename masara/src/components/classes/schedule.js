@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import 'animate.css';
 import './classes.css'; // Import custom CSS for additional styling
 
@@ -13,7 +13,7 @@ const HeroSection = () => {
               Masra Homeschooling Center Schedule
             </h1>
             <p className="lead text-white animate__animated animate__fadeIn animate__delay-1s">
-              Masra Homeschooling Center offers a well-rounded program that includes both core and enrichment courses. Explore our offerings to see how we can support your child's educational journey.
+              Masra Homeschooling Center Offers a Well-rounded Program That Includes Both Core and Enrichment Courses. Explore Our Offerings To See How We Can Support Your Child's Educational Journey.
             </p>
           </Col>
         </Row>
@@ -30,8 +30,9 @@ const Schedule = () => {
         {/* Core Courses Section */}
         <Row className="mb-4">
           <Col>
-            <h2 className="text-center mb-4">Core Courses</h2>
-            <Row className="justify-content-center">
+            <h2 className="text-center mb-4 fs-1">Core Courses</h2>
+            <Row className="justify-content-center fs-3">Coming soon</Row>
+            {/* <Row className="justify-content-center">
               <Col md={4} className="mb-4">
                 <Card className="animate__animated animate__fadeInUp animate__delay-1s">
                   <Card.Body>
@@ -62,7 +63,7 @@ const Schedule = () => {
                   </Card.Body>
                 </Card>
               </Col>
-            </Row>
+            </Row> */}
           </Col>
         </Row>
 
@@ -70,7 +71,8 @@ const Schedule = () => {
         <Row className="mb-4">
           <Col>
             <h2 className="text-center mb-4">Enrichment Courses</h2>
-            <Row className="justify-content-center">
+            <Row className="justify-content-center fs-3">Coming soon</Row>
+            {/* <Row className="justify-content-center">
               <Col md={6} className="mb-4">
                 <Card className="animate__animated animate__fadeInUp animate__delay-1s">
                   <Card.Body>
@@ -111,7 +113,7 @@ const Schedule = () => {
                   </Card.Body>
                 </Card>
               </Col>
-            </Row>
+            </Row> */}
           </Col>
         </Row>
 

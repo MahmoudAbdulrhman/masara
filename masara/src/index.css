@@ -4,12 +4,15 @@
 
 body {
   margin: 0;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    /* font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./assets/drawing.jpg');
+  background-image: url('./assets/drawing2.png');
 
 }
 

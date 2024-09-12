@@ -53,13 +53,10 @@ const OurTeam = () => {
             {/* Conditionally set the image to the left or right on larger screens and always on top for mobile */}
             {index % 2 === 0 ? (
               <>
-                <Col xs={12} md={4} className="order-md-1 order-1">
-                  <Card.Img variant="top" src={member.imgSrc} className="team-img" />
-                </Col>
                 <Col xs={12} md={8} className="order-md-2 order-2">
                   <Card.Body>
                     <Card.Title>{member.name}</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">{member.role}</Card.Subtitle>
+                    <Card.Subtitle className=" text-muted">{member.role}</Card.Subtitle>
                     <Card.Text>{member.description}</Card.Text>
                   </Card.Body>
                 </Col>
@@ -73,9 +70,7 @@ const OurTeam = () => {
                     <Card.Text>{member.description}</Card.Text>
                   </Card.Body>
                 </Col>
-                <Col xs={12} md={4} className="order-md-2 order-1">
-                  <Card.Img variant="top" src={member.imgSrc} className="team-img" />
-                </Col>
+               
               </>
             )}
           </Row>

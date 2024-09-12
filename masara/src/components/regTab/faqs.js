@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Container } from 'react-bootstrap';
+import { Card, Container,Accordion } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
 import '../regTab/regTab.css'; // Ensure this path is correct
@@ -97,15 +97,51 @@ const faqData = [
   }
 ];
 
+// const FAQSection = () => {
+//   return (
+//     <div>
+//       {/* Hero Section */}
+//       <div className="faqs m-2 text-center text-white py-5">
+//         <Container>
+//           <h1 className="display-4 animate__animated animate__fadeIn text-black">Welcome to MASRA Homeschooling</h1>
+//           <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow text-black">
+//             Explore our FAQs To Learn More About Our Core and Enrichment Courses
+//           </p>
+//         </Container>
+//       </div>
+
+//       {/* FAQ Section */}
+//       <Container className="mt-5">
+//         <h2 className="text-center mb-4 animate__animated animate__fadeIn">MASRA Homeschooling FAQs</h2>
+//         {faqData.map(({ title, content }, index) => (
+//           <Card key={index} className={`mb-4 animate__animated animate__fadeIn animate__delay-${index + 1}s`}>
+//             <Card.Header className=" bg-light text-black">
+//               <h4>{title}</h4>
+//             </Card.Header>
+//             <Card.Body>
+//               {content.map(({ question, answer }, i) => (
+//                 <div key={i} className="mb-3">
+//                   <h5>{question}</h5>
+//                   <p dangerouslySetInnerHTML={{ __html: answer }}></p>
+//                 </div>
+//               ))}
+//             </Card.Body>
+//           </Card>
+//         ))}
+//       </Container>
+//     </div>
+//   );
+// };
+
 const FAQSection = () => {
   return (
-    <div className='bg-light-peach '>
+    <div>
       {/* Hero Section */}
       <div className="faqs m-2 text-center text-white py-5">
         <Container>
           <h1 className="display-4 animate__animated animate__fadeIn text-black">Welcome to MASRA Homeschooling</h1>
           <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow text-black">
-            Explore our FAQs to learn more about our core and enrichment courses, enrollment process, curriculum, and more. We are here to support homeschooling families with quality education and personalized attention.
+            Explore our FAQs to learn more about our Core and Enrichment Courses
           </p>
         </Container>
       </div>
@@ -113,24 +149,30 @@ const FAQSection = () => {
       {/* FAQ Section */}
       <Container className="mt-5">
         <h2 className="text-center mb-4 animate__animated animate__fadeIn">MASRA Homeschooling FAQs</h2>
-        {faqData.map(({ title, content }, index) => (
-          <Card key={index} className={`mb-4 animate__animated animate__fadeIn animate__delay-${index + 1}s`}>
-            <Card.Header className=" bg-light text-black">
-              <h4>{title}</h4>
-            </Card.Header>
-            <Card.Body>
-              {content.map(({ question, answer }, i) => (
-                <div key={i} className="mb-3">
-                  <h5>{question}</h5>
-                  <p dangerouslySetInnerHTML={{ __html: answer }}></p>
-                </div>
-              ))}
-            </Card.Body>
-          </Card>
-        ))}
+        <Accordion defaultActiveKey="0">
+          {faqData.map(({ title, content }, index) => (
+            <Card key={index} className={`mb-4 animate__animated animate__fadeIn animate__delay-${index + 1}s`}>
+              <Accordion.Item eventKey={index.toString()}>
+                <Accordion.Header className="bg-light text-black">
+                  <h4>{title}</h4>
+                </Accordion.Header>
+                <Accordion.Body>
+                  {content.map(({ question, answer }, i) => (
+                    <div key={i} className="mb-3">
+                      <h5>{question}</h5>
+                      <p dangerouslySetInnerHTML={{ __html: answer }}></p>
+                    </div>
+                  ))}
+                </Accordion.Body>
+              </Accordion.Item>
+            </Card>
+          ))}
+        </Accordion>
       </Container>
     </div>
   );
 };
+
+
 
 export default FAQSection;
