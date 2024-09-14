@@ -55,7 +55,9 @@ function App() {
           <Route path="nl" element={<Newsletter />}>
             <Route path="newslatter" element={<Newsletter />} />
           </Route>
-          <Route path="contact" element={<ContactUs />} />
+          <Route path="mainPage" element={<ContactUs/>}>
+          <Route path="contactUs" element={<ContactUs />} />
+          </Route>
         </Routes>
       </div>
       <FooterComponent />

@@ -12,8 +12,8 @@ const ContactUs = () => {
       {/* Hero Section */}
       <header className="hero-section d-flex align-items-center justify-content-center text-center">
         <div className="hero-content animate__animated animate__fadeIn">
-          <h1 className="display-3 text-dark">Get in Touch with Us</h1>
-          <p className="lead text-dark">We’re here to help you with any questions you may have.</p>
+          <h1 style={{ fontWeight: '650' }} className="display-3 text-dark ">Get in Touch with Us</h1>
+          <p style={{ fontWeight: '5100' }} className="lead text-dark ">We’re here to help you with any questions you may have.</p>
         </div>
       </header>
 
