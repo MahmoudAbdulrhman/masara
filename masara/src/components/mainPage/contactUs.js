@@ -12,7 +12,7 @@ const ContactUs = () => {
       {/* Hero Section */}
       <header className="hero-section d-flex align-items-center justify-content-center text-center">
         <div className="hero-content animate__animated animate__fadeIn">
-          <h4 className="display-3 text-dark">Get in Touch with Us</h4>
+          <h1 className="display-3 text-dark">Get in Touch with Us</h1>
           <p className="lead text-dark">We’re here to help you with any questions you may have.</p>
         </div>
       </header>
@@ -23,7 +23,7 @@ const ContactUs = () => {
           <Col md={8}>
             <Card className="text-center p-4 animate__animated animate__fadeIn">
               <Card.Body>
-                <Card.Title className="display-4 mb-3">Masra Homeschooling</Card.Title>
+                <Card.Title className="display-4 mb-3"><h2>Masra Homeschooling</h2></Card.Title>
                 <Card.Text className="lead">
                   <div className="mb-3">
                     <p>4234 Green River Rd, Unit 101</p>
