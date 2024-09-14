@@ -42,28 +42,42 @@
   /* CustomStyle.css */
 
 /* Center the hero component in its container */
+/* src/CustomStyle.css */
+
 .hero-body {
-  /* Add any styles needed for the hero body */
+  /* Center content horizontally and vertically, with margin around the entire section */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 29vh; /* Full viewport height */
-  margin: 20px;
-  margin-top:50px;
+  height: 29vh; /* Adjust as needed for your design */
+  margin: 75px; /* Margin around the hero section */
 }
 
 .hero-section {
-  background: #000; /* Background color for the hero section */
-  color: #fff; /* Text color */
-  border: none; /* Remove card borders */
-  border-radius: 0; /* Remove card corners */
+  /* Style for the hero section card */
+  background: #000; /* Black background color */
+  color: #fff; /* White text color for contrast */
+  border: none; /* Remove default card border */
+  border-radius: 0; /* No rounded corners */
+  padding: 2rem; /* Add padding inside the card for spacing */
+  text-align: center; /* Center-align text inside the card */
 }
 
 .hero-logo {
-  width: 150px; /* Adjust the width of the logo */
-  margin-bottom: 20px; /* Space between the logo and text */
-  /* You can add more styles for positioning or adding shadows if needed */
+  /* Style for the logo */
+  width: 150px; /* Width of the logo */
+  margin-bottom: 20px; /* Space between the logo and the headings */
+  /* Add more styles if needed, such as box-shadow, etc. */
 }
+
+.white-heading {
+  color: #fff; /* Ensure heading text is white */
+}
+
+.fontSize {
+  font-size: 3rem; /* Adjust font size for the larger heading */
+}
+
 
 .white-heading {
   color: #fff; /* Ensure text is white */
