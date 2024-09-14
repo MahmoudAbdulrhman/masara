@@ -83,13 +83,16 @@
     position: relative;
     overflow: hidden;
     background: #7DD6E1; /* Background color for donation card */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for donation card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for donation card */box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for info cards */
+    transition: box-shadow 0.3s; /* Smooth transition for shadow effect */
   }
   
   .donation-card .card-body {
     background:url(../../assets/small2.png); /* Ensure card body matches the card background color */
     object-fit: cover;
     height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for info cards */
+    transition: box-shadow 0.3s; /* Smooth transition for shadow effect */
   }
   
   .donation-card .info-button {

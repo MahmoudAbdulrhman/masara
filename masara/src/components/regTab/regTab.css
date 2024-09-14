@@ -56,4 +56,19 @@
     border-radius: 8px; /* Optional: rounded corners */
     padding: 50px 0; /* Adjust padding as needed */
   }
+
+  .text-background {
+    background-color: rgba(255, 255, 255, 0.6); /* White background with 60% opacity */
+    padding: 5px; /* Adjust padding as needed */
+    border-radius: 3px; /* Optional: adds rounded corners */
+  }
+
+  .font-bold {
+    font-weight: 700; /* Use a higher number for bolder text */
+  }
+  
+  .text-black {
+    color: #000000; /* Ensure the text color contrasts well with the background */
+  }
+  
   

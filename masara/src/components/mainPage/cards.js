@@ -118,11 +118,11 @@ const HorizontalCardComponent = () => {
         {/* Donation Card */}
         <Row>
           <Col>
-            <Card className="donation-card">
+            <Card className="donation-card ">
               <Card.Body>
                 <Card.Title><h2>Support Us</h2></Card.Title>
                 <Card.Text>
-                  <h3>Your support helps us provide better resources and opportunities for our community.</h3>
+                  <h3>Your support helps us provide better resources.</h3>
                 </Card.Text>
                 <Button 
                   variant="primary" 

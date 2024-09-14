@@ -97,41 +97,7 @@ const faqData = [
   }
 ];
 
-// const FAQSection = () => {
-//   return (
-//     <div>
-//       {/* Hero Section */}
-//       <div className="faqs m-2 text-center text-white py-5">
-//         <Container>
-//           <h1 className="display-4 animate__animated animate__fadeIn text-black">Welcome to MASRA Homeschooling</h1>
-//           <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow text-black">
-//             Explore our FAQs To Learn More About Our Core and Enrichment Courses
-//           </p>
-//         </Container>
-//       </div>
 
-//       {/* FAQ Section */}
-//       <Container className="mt-5">
-//         <h2 className="text-center mb-4 animate__animated animate__fadeIn">MASRA Homeschooling FAQs</h2>
-//         {faqData.map(({ title, content }, index) => (
-//           <Card key={index} className={`mb-4 animate__animated animate__fadeIn animate__delay-${index + 1}s`}>
-//             <Card.Header className=" bg-light text-black">
-//               <h4>{title}</h4>
-//             </Card.Header>
-//             <Card.Body>
-//               {content.map(({ question, answer }, i) => (
-//                 <div key={i} className="mb-3">
-//                   <h5>{question}</h5>
-//                   <p dangerouslySetInnerHTML={{ __html: answer }}></p>
-//                 </div>
-//               ))}
-//             </Card.Body>
-//           </Card>
-//         ))}
-//       </Container>
-//     </div>
-//   );
-// };
 
 const FAQSection = () => {
   return (
@@ -140,7 +106,7 @@ const FAQSection = () => {
       <div className="faqs m-2 text-center text-white py-5">
         <Container>
           <h1 className="display-4 animate__animated animate__fadeIn text-black">Welcome to MASRA Homeschooling</h1>
-          <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow text-black">
+          <p className="lead animate__animated animate__fadeIn animate__delay-1s text-shadow text-background font-bold text-black">
             Explore our FAQs to learn more about our Core and Enrichment Courses
           </p>
         </Container>
