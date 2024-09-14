@@ -87,7 +87,9 @@
   }
   
   .donation-card .card-body {
-    background: #7DD6E1; /* Ensure card body matches the card background color */
+    background:url(../../assets/small2.png); /* Ensure card body matches the card background color */
+    object-fit: cover;
+    height: 100%;
   }
   
   .donation-card .info-button {
