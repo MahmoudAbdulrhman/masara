@@ -1,0 +1,70 @@
+/* src/ContactUs.css */
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* h1 {
+    color: #007bff;
+  } */
+  
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  a {
+    color: #007bff;
+  }
+  
+  /* src/ContactUs.css */
+
+/* src/ContactUs.css */
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .herou-section {
+    background: url('../../assets/cu2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh; /* Adjust height as needed */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .herou-content {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  h1.display-3 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+  }
+  
+  .lead {
+    font-size: 1.2rem; /* Adjust font size as needed */
+  }
+  
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+/*   
+  a {
+    color: #007bff;
+  } */
+  

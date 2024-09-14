@@ -42,9 +42,9 @@ function NavScroll() {
               <NavDropdown.Item as={Link} to="/about/vision" onClick={handleNavItemClick}>
                 Vision & Mission
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/about/ourTeam" onClick={handleNavItemClick}>
+              {/* <NavDropdown.Item as={Link} to="/about/ourTeam" onClick={handleNavItemClick}>
                 Our Team
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
 
             {/* Classes Dropdown */}
@@ -88,6 +88,9 @@ function NavScroll() {
             {/* Newsletter Link */}
             <Nav.Link as={Link} to="/nl/newslatter" onClick={handleNavItemClick}>
               Newsletter
+            </Nav.Link>
+            <Nav.Link as={Link} to="/mainPage/contactUs" onClick={handleNavItemClick}>
+              Contact Us
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
