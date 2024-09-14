@@ -51,7 +51,9 @@ function App() {
             <Route path="masra" element={<Masra />} />
             <Route path="community" element={<Community />} />
           </Route>
+          <Route path="portal" element={<Portal/>}>
           <Route path="portal" element={<Portal />} />
+          </Route>
           <Route path="nl" element={<Newsletter />}>
             <Route path="newslatter" element={<Newsletter />} />
           </Route>
