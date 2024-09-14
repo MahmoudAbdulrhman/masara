@@ -21,6 +21,7 @@ import Newsletter from "./components/nl/newsletter";
 import Portal from "./components/portal/portal";
 import ContactUs from "./components/mainPage/contactUs";
 import HorizontalCardComponent from "./components/mainPage/cards";
+import BackToTopButton from "./components/arrow/arrow";
 import Cs from "./components/comingSoon/Cs"; // Ensure this path is correct
 import "./App.css"; // Import your custom CSS for layout
 
@@ -63,6 +64,7 @@ function App() {
         </Routes>
       </div>
       <FooterComponent />
+      <BackToTopButton />
     </div>
   );
 }
