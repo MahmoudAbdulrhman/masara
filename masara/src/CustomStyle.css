@@ -59,10 +59,10 @@
   background: #000; /* Black background color */
   color: #fff; /* White text color for contrast */
   border: none; /* Remove default card border */
-  border-radius: 0; /* No rounded corners */
+  border-radius: 3; /* No rounded corners */
   padding: 2rem; /* Add padding inside the card for spacing */
   text-align: center; /* Center-align text inside the card */
-  margin-top: 20px;
+  margin: 20vh;
 }
 
 .hero-logo {
