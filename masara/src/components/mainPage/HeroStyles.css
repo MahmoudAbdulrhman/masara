@@ -1,0 +1,47 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hero-card {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the card */
+    height: 500px; /* Set a fixed height for the card */
+    border: none;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire card area */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .card-body {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  .hero-logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    color: #000000; /* White text color for contrast */
+  }
+  
+  .hero-subtitle {
+    font-size: 2rem;
+    color: #080000; /* Slightly lighter text color for subtitle */
+  }
+  

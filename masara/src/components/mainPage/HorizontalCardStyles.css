@@ -1,0 +1,65 @@
+.horizontal-card-container {
+  padding: 20px;
+}
+
+.intro-card {
+  border: none;
+  border-radius: 10px;
+  background: #e9ecef;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.info-card {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img {
+  border-radius: 10px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 10px;
+}
+
+.info-button {
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.info-button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.hover-effect {
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.hover-effect:hover {
+  background-color: #004085; /* Darker shade for hover effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.loading-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading {
+  background: #f8f9fa; /* Light background during loading */
+}
