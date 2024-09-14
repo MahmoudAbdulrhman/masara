@@ -4,6 +4,7 @@ import enroll from "../../assets/back.jpg";
 import teach from '../../assets/career.jpg';
 import '../../CustomStyle.css'; // Import your custom CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from "../../assets/Logo.png"; 
 
 const HorizontalCardComponent = () => {
   const [showModal, setShowModal] = useState(false);
@@ -18,7 +19,19 @@ const HorizontalCardComponent = () => {
 
   return (
    
+    
     <div className="container">
+       <div className="hero-body">
+      <Card className="hero-section">
+        <Card.Body className="d-flex flex-column align-items-center">
+          {/* Logo */}
+          <img src={logo} alt="MASRA Logo" className="hero-logo" />
+          {/* Headings */}
+          <p className="display-4 white-heading fontSize">MASRA</p>
+          <p className="white-heading">HOMESCHOOLING</p>
+        </Card.Body>
+      </Card>
+    </div>
       {/* Introductory Card without Hover Effect */}
       <Card className='padding shadow mt-5'>
         <Card.Body className='lead info-Card'>

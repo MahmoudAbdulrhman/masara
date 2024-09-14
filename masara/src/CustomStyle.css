@@ -62,6 +62,7 @@
   border-radius: 0; /* No rounded corners */
   padding: 2rem; /* Add padding inside the card for spacing */
   text-align: center; /* Center-align text inside the card */
+  margin-top: 20px;
 }
 
 .hero-logo {
