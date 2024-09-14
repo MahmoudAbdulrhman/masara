@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Col, Row, Card, Modal, Button, Spinner } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
 import enroll from "../../assets/back.jpg";
 import teach from '../../assets/career.jpg';
 import '../mainPage/HorizontalCardStyles.css'; // Import your custom CSS
@@ -9,6 +10,7 @@ const HorizontalCardComponent = () => {
   const [showModal, setShowModal] = useState(false);
   const [formUrl, setFormUrl] = useState('');
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate(); // Initialize useNavigate
 
   useEffect(() => {
     // Simulate loading delay
@@ -22,6 +24,10 @@ const HorizontalCardComponent = () => {
   };
 
   const handleClose = () => setShowModal(false);
+
+  const handleDonationClick = () => {
+    navigate('/community'); // Navigate to the Community component
+  };
 
   return (
     <div className="horizontal-card-container">
@@ -105,6 +111,27 @@ const HorizontalCardComponent = () => {
                   </Card.Body>
                 </>
               )}
+            </Card>
+          </Col>
+        </Row>
+        
+        {/* Donation Card */}
+        <Row>
+          <Col>
+            <Card className="donation-card">
+              <Card.Body>
+                <Card.Title><h2>Support Us</h2></Card.Title>
+                <Card.Text>
+                  <h3>Your support helps us provide better resources and opportunities for our community.</h3>
+                </Card.Text>
+                <Button 
+                  variant="primary" 
+                  className="info-button hover-effect"
+                  onClick={handleDonationClick} // Navigate to Community component
+                >
+                  Donate Now
+                </Button>
+              </Card.Body>
             </Card>
           </Col>
         </Row>

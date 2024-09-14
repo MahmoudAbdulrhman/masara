@@ -1,65 +1,109 @@
 .horizontal-card-container {
-  padding: 20px;
-}
-
-.intro-card {
-  border: none;
-  border-radius: 10px;
-  background: #e9ecef;
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-}
-
-.info-card {
-  border: none;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-}
-
-.card-img {
-  border-radius: 10px;
-}
-
-.info-list {
-  list-style: none;
-  padding: 0;
-}
-
-.info-list li {
-  margin-bottom: 10px;
-}
-
-.info-button {
-  border-radius: 5px;
-  font-size: 1rem;
-  padding: 10px 20px;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.info-button:hover {
-  background-color: #0056b3; /* Darker shade for hover effect */
-  transform: scale(1.05); /* Slightly enlarge button on hover */
-}
-
-.hover-effect {
-  transition: background-color 0.3s, box-shadow 0.3s;
-}
-
-.hover-effect:hover {
-  background-color: #004085; /* Darker shade for hover effect */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
-}
-
-.loading-spinner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.loading {
-  background: #f8f9fa; /* Light background during loading */
-}
+    padding: 20px;
+  }
+  
+  .intro-card {
+    border: none;
+    border-radius: 10px;
+    background: #7DD6E1; /* Background color for intro card */
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for intro card */
+  }
+  
+  .info-card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #7DD6E1; /* Background color for all info cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for info cards */
+    transition: box-shadow 0.3s; /* Smooth transition for shadow effect */
+  }
+  
+  .info-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+  }
+  
+  .card-img {
+    border-radius: 10px;
+    width: 100%; /* Ensure image covers the card width */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensure image scales properly */
+  }
+  
+  .info-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-list li {
+    margin-bottom: 10px;
+  }
+  
+  .info-button {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .info-button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  .hover-effect {
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .hover-effect:hover {
+    background-color: #004085; /* Darker shade for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+  }
+  
+  .loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .loading {
+    background: #f8f9fa; /* Light background during loading */
+  }
+  
+  /* Specific styles for the Donation Card */
+  .donation-card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #7DD6E1; /* Background color for donation card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for donation card */
+  }
+  
+  .donation-card .card-body {
+    background: #7DD6E1; /* Ensure card body matches the card background color */
+  }
+  
+  .donation-card .info-button {
+    background-color: #28a745; /* Green background for donation button */
+    color: #ffffff; /* White text color */
+  }
+  
+  .donation-card .info-button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+  }
+  
+  .donation-card .card-title {
+    color: #333333; /* Dark text color for the title */
+  }
+  
+  .donation-card .card-text {
+    color: #555555; /* Slightly lighter text color for description */
+  }
+  

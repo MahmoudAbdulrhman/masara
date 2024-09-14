@@ -18,9 +18,9 @@ const Portal = () => {
               <p className="lead text-black animate__animated animate__fadeIn animate__delay-2s">
                 We're working hard to get our new site up and running. Stay tuned!
               </p>
-              <Button variant="primary" className="animate__animated animate__fadeIn animate__delay-3s">
-                Learn More
-              </Button>
+              <Button variant="primary" href="mailto:info@masraha.org" className="animate__animated animate__fadeIn animate__delay-6s">
+              Email Us
+            </Button>
             </div>
           </Col>
         </Row>

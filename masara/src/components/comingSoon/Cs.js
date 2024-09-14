@@ -5,7 +5,7 @@ import '../regTab/regTab.css'
 
          // Import custom CSS for additional styling
 
-const Masra = () => {
+const Cs = () => {
   return (
     <div className="heror-section">
       <Container className="text-center">
@@ -29,4 +29,4 @@ const Masra = () => {
   );
 };
 
-export default Masra;
+export default Cs;

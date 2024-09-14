@@ -1,4 +1,3 @@
-// src/App.js
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import NavScroll from "./components/mainPage/navbar"; // Correct path to NavScroll
@@ -21,6 +20,8 @@ import Community from "./components/eve/Community";
 import Newsletter from "./components/nl/newsletter";
 import Portal from "./components/portal/portal";
 import ContactUs from "./components/mainPage/contactUs";
+import HorizontalCardComponent from "./components/mainPage/cards";
+import Cs from "./components/comingSoon/Cs"; // Ensure this path is correct
 import "./App.css"; // Import your custom CSS for layout
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
             <Route path="vision" element={<Vision />} />
             <Route path="ourTeam" element={<OurTeam />} />
           </Route>
+          <Route path="mainPage" element={<HorizontalCardComponent />} />
+          <Route path="community" element={<Cs />} /> {/* Adjusted path */}
           <Route path="classes" element={<Classes />}>
             <Route path="courses" element={<Courses />} />
             <Route path="schedule" element={<Schedule />} />
@@ -46,17 +49,13 @@ function App() {
           </Route>
           <Route path="events" element={<Events />}>
             <Route path="masra" element={<Masra />} />
-            <Route path="Community" element={<Community />} />
+            <Route path="community" element={<Community />} />
           </Route>
-          <Route path="portal" element={<Portal />}>
-            <Route path="portal" element={<Portal />} />
-          </Route>
+          <Route path="portal" element={<Portal />} />
           <Route path="nl" element={<Newsletter />}>
             <Route path="newslatter" element={<Newsletter />} />
           </Route>
-          <Route path='mainPage' element={<ContactUs/>}>
-            <Route path='ContactUs' element={<ContactUs/>}></Route>
-          </Route>
+          <Route path="contact" element={<ContactUs />} />
         </Routes>
       </div>
       <FooterComponent />
