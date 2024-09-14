@@ -43,11 +43,7 @@ const Courses = () => {
                 <Card.Body>
                   <Card.Title>Enrichment Courses</Card.Title>
                   <div className="card-text">
-                    <p>Our Creative Writing course invites you to dive into your imagination and develop your writing skills through engaging exercises and storytelling techniques. This course is designed to help you express your creativity while refining your abilities as a writer.
-
-In the Adventure Through Stories and Art course, you’ll immerse yourself in the world of literature and art. By blending storytelling with creative expression, you’ll embark on a unique learning journey that combines the art of narrative with artistic skills.
-
-The Debate and Public Speaking course focuses on enhancing your critical thinking and communication abilities. Through learning effective debate strategies and public speaking techniques, this course aims to build your confidence and improve your presentation skills.</p>
+                    <p>Explore your creativity with our Creative Writing course, where you'll enhance your writing skills through engaging exercises and storytelling techniques. Adventure Through Stories and Art combines literature and art, offering a unique journey that blends narrative with artistic expression. Boost your confidence with our Debate and Public Speaking course, focusing on critical thinking, effective debate strategies, and presentation skills.</p>
                   </div>
                 </Card.Body>
               </Card>

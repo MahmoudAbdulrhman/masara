@@ -5,10 +5,10 @@
 
 body {
   margin: 0;
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 400; /* You can adjust this value as needed, e.g., 400 for normal, 700 for bold */
-  font-style: normal;
+  font-family: 'Montserrat ', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+
 }
 
 .App {
