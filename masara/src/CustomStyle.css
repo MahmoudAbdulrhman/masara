@@ -57,12 +57,12 @@
   /* Style for the hero section card */
   background: url('../src/assets/small3.jpg') no-repeat center center;
   background: #000; /* Black background color */
-  color: #fff; /* White text color for contrast */
+  color: #020101; /* White text color for contrast */
   border: none; /* Remove default card border */
   border-radius: 3; /* No rounded corners */
   padding: 2rem; /* Add padding inside the card for spacing */
   text-align: center; /* Center-align text inside the card */
-  margin: 20vh;
+ 
 }
 
 .hero-logo {
